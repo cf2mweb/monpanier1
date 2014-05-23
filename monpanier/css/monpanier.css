@@ -1,0 +1,38 @@
+/*
+MonPanier V1
+*/
+
+#monpanier * { margin:0; padding:0; font-family:arial, tahoma, verdana, sans-serif; }
+#monpanier, #monpanier input, #monpanier-tooltip { font-size:12px; }
+
+#monpanier fieldset { border:0; }
+
+#monpanier-error { text-align:center; padding:5px; }
+
+#monpanier table { width:100%; border:0; background:#fff; border-collapse:collapse; }
+#monpanier thead {  }
+#monpanier-title {  }
+#monpanier tbody {  }
+#monpanier tfoot {  }
+#monpanier tr {  }
+#monpanier th { background:#ccffcc }
+#monpanier th, #monpanier td { padding:5px; border:0; border:solid 1px #ccc; vertical-align:middle; text-align:left; font-weight:normal; }
+#monpanier #monpanier-empty { text-align:center; }
+
+.monpanier-item-qty { width:25%; }
+#monpanier .monpanier-item-name { width:50%; font-weight:bold; }
+#monpanier .monpanier-item-price { width:25%; font-weight:bold; text-align:right; }
+.monpanier-item-price span { display:block; }
+
+.monpanier-remove { font-size:11px; font-weight:normal; }
+
+#monpanier-subtotal { display:block; }
+#monpanier-subtotal strong {  }
+
+#monpanier-buttons input { padding:2px; margin:2px; }
+
+#monpanier-checkout { float:right; padding:2px; }
+
+#monpanier-paypal-checkout { display:block; width:14em; padding:10px; margin:20px auto; }
+
+#monpanier-tooltip { display:none; position:absolute; padding:3px 7px 3px 25px; background:url(../images/checkmark.png) 3px center no-repeat #fdfdfd; border:1px solid #a6c9e2; z-index:9999; }
