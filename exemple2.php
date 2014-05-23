@@ -25,6 +25,7 @@
             <div class="navbar navbar-default">
                 <div id="menu" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
+                        <li><a href="exemple2.php">Accueil</a></li>
                         <li><a href="?s=armes-blanches">Armes Blanches</a></li>
                         <li><a href="?s=armes-a-feu">Armes à feu</a></li>
                         <li><a href="?s=autres">Autres</a></li>
