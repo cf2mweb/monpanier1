@@ -1,6 +1,7 @@
 <?php
 
 // MonPanier V1
+
 include_once('monpanier/config-loader.php');
 include_once('monpanier/jcart.php');
 @session_start();
